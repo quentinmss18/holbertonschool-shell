@@ -1,7 +1,2 @@
 #!/bin/bash
-
-# Vérifie si un fichier nommé 'hello' existe (-f)
-if [ -f hello ]; then
-    # Si le test est vrai, exécute ls -l
-    ls -l hello
-fi
+chown vincent hello
