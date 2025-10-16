@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %c%c\\n {a..z} {a..z} | grep -v 'oo'
+[ $a$b != oo ] && echo $a$b
